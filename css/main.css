@@ -1,12 +1,151 @@
 @charset "UTF-8";
 @import url("http://fonts.cdnfonts.com/css/molot");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  text-decoration: none;
+@media screen and (max-width: 768px) {
+  /*HEADER*/
+  header {
+    width: 100vh;
+  }
+  .navegacion {
+    width: 40%;
+  }
+  .logo {
+    max-width: 10rem;
+    max-height: 10rem;
+  }
+  /*INDEX*/
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .container2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .quemese {
+    padding-left: 15vh;
+    padding-right: 15vh;
+  }
+  /*PODCASTS*/
+  .buscar input {
+    width: 8rem;
+  }
+  /*titulo*/
+  .titulo-principal-quemese {
+    font-size: 180%;
+  }
+  /*iframe*/
+  .iframe1-quemese {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .iframe2-quemese {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .iframe3-quemese {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-bottom: 1%;
+  }
+  /*NOSOTROS*/
+  .foto-principal {
+    height: 17vh;
+  }
+  .titulo-principal-nosotros {
+    font-size: 180%;
+  }
+  /*seccion fotos*/
+  .sectionfoto1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 120%;
+  }
+  .foto1 {
+    max-width: 25vh;
+    max-height: 25vh;
+  }
+  .redes2 {
+    max-width: 3vh;
+    max-height: 3vh;
+  }
+  /*CINE Q*/
+  /*main*/
+  .main-principal {
+    font-size: 120%;
+    padding-top: 2vh;
+  }
+  .cartelera {
+    font-size: 120%;
+    padding-top: 2vh;
+  }
+  .description-cartelera {
+    font-size: 120%;
+  }
+  .trailer {
+    width: 44vh;
+  }
+  .mapa {
+    font-size: 120%;
+    padding-top: 2vh;
+  }
+  .mapa-iframe {
+    width: 44vh;
+    height: 30vh;
+  }
+  /*No estoy segura como tengo que hacer para poder manipular cada uno de los elementos del formulario*/
+  /*CONTRIBUI*/
+  /*patreon*/
+  .patreon-description {
+    font-size: 120%;
+    padding-top: 2vh;
+  }
+  .patreon img {
+    max-width: 45vh;
+    max-height: 45vh;
+  }
+  /*cafecito*/
+  .cafecito-description {
+    font-size: 120%;
+    padding-top: 2vh;
+  }
+  .cafecito img {
+    max-width: 45vh;
+    max-height: 45vh;
+  }
 }
 
 /*INDEX.HTML*/
@@ -506,150 +645,11 @@ footer {
   color: #000;
 }
 
-@media screen and (max-width: 768px) {
-  /*HEADER*/
-  header {
-    width: 100vh;
-  }
-  .navegacion {
-    width: 40%;
-  }
-  .logo {
-    max-width: 10rem;
-    max-height: 10rem;
-  }
-  /*INDEX*/
-  .container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .container2 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .quemese {
-    padding-left: 15vh;
-    padding-right: 15vh;
-  }
-  /*PODCASTS*/
-  .buscar input {
-    width: 8rem;
-  }
-  /*titulo*/
-  .titulo-principal-quemese {
-    font-size: 180%;
-  }
-  /*iframe*/
-  .iframe1-quemese {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .iframe2-quemese {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .iframe3-quemese {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    padding-bottom: 1%;
-  }
-  /*NOSOTROS*/
-  .foto-principal {
-    height: 17vh;
-  }
-  .titulo-principal-nosotros {
-    font-size: 180%;
-  }
-  /*seccion fotos*/
-  .sectionfoto1 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    font-size: 120%;
-  }
-  .foto1 {
-    max-width: 25vh;
-    max-height: 25vh;
-  }
-  .redes2 {
-    max-width: 3vh;
-    max-height: 3vh;
-  }
-  /*CINE Q*/
-  /*main*/
-  .main-principal {
-    font-size: 120%;
-    padding-top: 2vh;
-  }
-  .cartelera {
-    font-size: 120%;
-    padding-top: 2vh;
-  }
-  .description-cartelera {
-    font-size: 120%;
-  }
-  .trailer {
-    width: 44vh;
-  }
-  .mapa {
-    font-size: 120%;
-    padding-top: 2vh;
-  }
-  .mapa-iframe {
-    width: 44vh;
-    height: 30vh;
-  }
-  /*No estoy segura como tengo que hacer para poder manipular cada uno de los elementos del formulario*/
-  /*CONTRIBUI*/
-  /*patreon*/
-  .patreon-description {
-    font-size: 120%;
-    padding-top: 2vh;
-  }
-  .patreon img {
-    max-width: 45vh;
-    max-height: 45vh;
-  }
-  /*cafecito*/
-  .cafecito-description {
-    font-size: 120%;
-    padding-top: 2vh;
-  }
-  .cafecito img {
-    max-width: 45vh;
-    max-height: 45vh;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
 }
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=main.css.map */

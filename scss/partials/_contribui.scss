@@ -1,0 +1,41 @@
+/*CONTRIBUI*/
+/*patreon*/
+
+.patreon {
+    display: flex;
+    justify-content: center;
+  }
+  .patreon img {
+    max-width: 50rem;
+    max-height: 50rem;
+    padding: 1%;
+  }
+  
+  .patreon-description {
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    font-size: 180%;
+    font-family: "Molot", sans-serif;
+    color: #000;
+  }
+  
+  /*cafecito*/
+  .cafecito {
+    display: flex;
+    justify-content: center;
+  }
+  .cafecito img {
+    max-width: 50rem;
+    max-height: 50rem;
+    padding: 1%;
+  }
+  
+  .cafecito-description {
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    font-size: 180%;
+    font-family: "Molot", sans-serif;
+    color: #000;
+  }

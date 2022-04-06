@@ -1,0 +1,42 @@
+/*PODCASTS*/
+
+/*barra de búsqueda*/
+.buscar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  .buscar input {
+    width: 13rem;
+    height: 2rem;
+    padding: 0 2rem;
+    font-size: 1rem;
+    color: silver;
+    outline: none;
+    border: 2px solid silver;
+    border-radius: 1rem;
+    font-family: "Molot", sans-serif;
+  }
+  /*titulo*/
+  .titulo-principal-quemese {
+    font-family: "Molot", sans-serif;
+    font-size: 200%;
+    padding: 15px 15px;
+    color: #ed1f23;
+  }
+  
+  /*iframe*/
+  .iframe1-quemese {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .iframe2-quemese {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .iframe3-quemese {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 1%;
+  }
