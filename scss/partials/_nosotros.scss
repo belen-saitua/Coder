@@ -1,0 +1,33 @@
+/*NOSOTROS*/
+/*main*/
+.foto-principal {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .titulo-principal-nosotros {
+    display: flex;
+    justify-content: center;
+    font-family: "Molot", sans-serif;
+    font-size: 200%;
+    padding: 15px 15px;
+    color: #ed1f23;
+  }
+  
+  /*seccion fotos*/
+  .sectionfoto1 {
+    display: flex;
+    padding: 1%;
+    font-size: 200%;
+    font-family: "Molot", sans-serif;
+  }
+  
+  .foto1 {
+    max-width: 25rem;
+    max-height: 25rem;
+  }
+  
+  .redes2 {
+    max-width: 3rem;
+    max-height: 3rem;
+  }

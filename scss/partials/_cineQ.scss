@@ -1,0 +1,64 @@
+/*CINE Q*/
+/*main*/
+
+.main-principal {
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    font-size: 180%;
+    font-family: "Molot", sans-serif;
+    color: #000;
+  }
+  
+  .cartelera {
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    font-size: 180%;
+    font-family: "Molot", sans-serif;
+    color: #000;
+  }
+  
+  .description-cartelera {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 1%;
+    font-size: 180%;
+    font-family: "Molot", sans-serif;
+    color: #000;
+  }
+  .mapa {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 1%;
+    font-size: 180%;
+    font-family: "Molot", sans-serif;
+    color: #000;
+  }
+  .contacto {
+    font-family: "Molot", sans-serif;
+    padding: 1rem;
+  }
+  .contacto input {
+    width: 13rem;
+    height: 2rem;
+    padding: 0 2rem;
+    font-size: 1rem;
+    font-family: "Molot", sans-serif;
+    color: black;
+    outline: none;
+    border: 2px solid silver;
+  }
+  
+  .contacto textarea {
+    width: 13rem;
+    height: 2rem;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-family: "Molot", sans-serif;
+    color: black;
+    outline: none;
+    border: 2px solid silver;
+  }

@@ -1,0 +1,15 @@
+@import url("http://fonts.cdnfonts.com/css/molot");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+@import"./partials/mediaQuerys";
+@import "./partials/index";
+@import "./partials/podcasts";
+@import "./partials/nosotros";
+@import "./partials/cineQ";
+@import "./partials/contribui";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
